@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin-bottom: 0rem;
     padding: 0;
     box-sizing: border-box;
     font-family: "Space Mono", serif;
@@ -7,17 +7,17 @@
 
 :root {
     --green-100: #f3f9fa;
-    --green-200: #e5e4e7;
-    --green-300: #9ebbbd;
-    --green-400: #7f9d9f;
-    --green-500: #5e7a7d;
+    --green-200: #c5e4e7;
+    --green-300: #9EBBBD;
+    --green-400: #7F9D9F;
+    --green-500: #5E7A7D;
     --green-600: #547878;
-    --green-700: #3d6666;
-    --green-800: #00474b;
-    --light-green: #26c2ae;
-    --white: #ffffff;
-    --green-hover: #9fe8df;
-    --danger: #e17457;
+    --green-700: #3D6666;
+    --green-800: #00474B;
+    --light-green: #26C2AE;
+    --green-hover: #9FE8DF;
+    --white: #FFFFFF;
+    --danger: #E17457;
 }
 
 body {
@@ -33,7 +33,7 @@ header {
 main {
     background-color: var(--white);
     padding: 2rem;
-    border-radius: 1.5625rem 1.5625rem 0 0;
+    border-radius: 1.525rem 1.5625rem 0 0;
 }
 
 .conta,
@@ -103,8 +103,8 @@ main {
     outline: none;
     padding-block: 0.4rem;
     border-radius: 0.3125rem;
-    background-color: var(--green-800);
     color: var(--white);
+    background-color: var(--green-800);
 }
 
 .gorjeta .botao-ativo {
@@ -121,21 +121,21 @@ main {
 .gorjeta #outra {
     width: 100%;
     background-color: var(--green-100);
-    color: var(--green-500);
+    color: var(--green-800);
 }
 
 .gorjeta #outra::placeholder {
     color: var(--green-300);
 }
 
-.pessoas .textos {
+.pessoas .textos{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .pessoas #erro-div {
-    outline: 2px solid var(--danger);
+outline: 2px solid var(--danger);
 }
 
 .pessoas #erro {
@@ -151,7 +151,7 @@ main {
     padding: 1.5rem;
 }
 
-.resultados div {
+.resultados div div {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -193,10 +193,10 @@ main {
 }
 
 .conta input::-webkit-inner-spin-button,
-.pessoas input::-webkit-inner-spin-button,
-.gorjeta #outra::-webkit-inner-spin-button {
-    display: none;
-}
+    .pessoas input::-webkit-inner-spin-button,
+    .gorjeta #outra::-webkit-inner-spin-button {
+        display: none;
+    }
 
 @media(min-width: 920px) {
     body {
